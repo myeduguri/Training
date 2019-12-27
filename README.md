@@ -29,6 +29,10 @@ git remote add origin
 git statusdir
 git show-ref
 
+git log --oneline --graph --decorate --all
+git help log
+
+
 
 
 
