@@ -11,6 +11,8 @@ git push -u origin master
 
 dir/a- hidden folders 
 
+git log
+git show
 
 
 Miscellaneous 
