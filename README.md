@@ -29,9 +29,20 @@ git remote add origin
 git statusdir
 git show-ref
 
+git reset HEAD README.md
+git checkout -- README.md
+
 git log --oneline --graph --decorate --all
 git help log
+git config --global alias.hist "log --oneline -- graph --decorate --all"
 
+git add -A
+ren License.md License.txt
+git config --global --list
+git rm Example.txt
+
+git hist
+git hist -- README.md
 
 
 
