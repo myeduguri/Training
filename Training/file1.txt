@@ -4,3 +4,5 @@ git rebase starting
 Continuing for second commit 
 
 Almost done with the commit 
+
+trying merge on to branch
